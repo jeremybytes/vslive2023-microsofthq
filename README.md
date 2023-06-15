@@ -21,7 +21,7 @@ Resources:
 
 ---  
 
-**VH06 - I'll Get Back to You: Task, Await, and Asynchronous Methods in C#  
+**VH06 - I'll Get Back to You: Task, Await, and Asynchronous Methods in C#**  
 
 *Level: Introductory / Intermediate*  
 
