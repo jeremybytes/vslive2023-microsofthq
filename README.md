@@ -1,7 +1,7 @@
 # Visual Studio Live! Microsoft HQ - July 2023  
 
 ## Description  
-This repository contains slides and code samples for sessions presented at Visual Studio Live! Las Vegas - July 17-21, 2023.  
+This repository contains slides and code samples for sessions presented at Visual Studio Live! Microsoft HQ - July 17-21, 2023.  
 
 ## Sessions  
 
