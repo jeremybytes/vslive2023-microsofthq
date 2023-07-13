@@ -20,8 +20,7 @@ public class PersonReader
         HttpResponseMessage response =
             await client.GetAsync("people", cancelToken).ConfigureAwait(false);
 
-        if (!response.IsSuccessStatusCode)
-            throw new HttpRequestException($"Unable to complete request: status code {response.StatusCode}");
+        response.EnsureSuccessStatusCode();
 
         var stringResult =
             await response.Content.ReadAsStringAsync().ConfigureAwait(false);

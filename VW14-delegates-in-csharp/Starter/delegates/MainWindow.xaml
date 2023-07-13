@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:delegates"
         mc:Ignorable="d"
-        Title="Get Func&lt;&gt;-y" Height="530" Width="955"
+        Title="Get Func&lt;&gt;-y" Height="620" Width="1350"
         WindowStartupLocation="CenterScreen">
     <Border x:Name="LayoutRoot" Padding="5"
             BorderBrush="{StaticResource ApplicationForeground}" BorderThickness="2" 
@@ -14,7 +14,7 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto" />
                 <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="1.3*" />
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
@@ -24,7 +24,7 @@
             <!-- List Box -->
             <ListBox x:Name="PersonListBox"
                      Grid.Column="0" Grid.Row="0" Grid.RowSpan="2"
-                     Margin="5" SelectionMode="Single" Width="490"
+                     Margin="5" SelectionMode="Single" Width="780"
                      BorderBrush="DarkSlateGray" BorderThickness="1"
                      ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                      ItemTemplate="{StaticResource PersonListTemplate}">
@@ -44,10 +44,10 @@
                             <TextBlock Text="String Handling" Style="{StaticResource ApplicationText}" />
                         </Expander.Header>
                         <StackPanel>
-                            <RadioButton x:Name="DefaultStringButton" VerticalContentAlignment="Center" Content="Default" IsChecked="True" />
-                            <RadioButton x:Name="FamilyNameStringButton" VerticalContentAlignment="Center" Content="Family Name" />
-                            <RadioButton x:Name="GivenNameStringButton" VerticalContentAlignment="Center" Content="Given Name" />
-                            <RadioButton x:Name="FullNameStringButton" VerticalContentAlignment="Center" Content="Full Name" />
+                            <RadioButton x:Name="DefaultStringButton" VerticalContentAlignment="Center" Content="Default" Margin="5,3,1,3" IsChecked="True" />
+                            <RadioButton x:Name="FamilyNameStringButton" VerticalContentAlignment="Center" Content="Family Name" Margin="5,3,1,3" />
+                            <RadioButton x:Name="GivenNameStringButton" VerticalContentAlignment="Center" Content="Given Name" Margin="5,3,1,3" />
+                            <RadioButton x:Name="FullNameStringButton" VerticalContentAlignment="Center" Content="Full Name" Margin="5,3,1,3" />
                         </StackPanel>
                     </Expander>
                     <Expander x:Name="ActionExpander" IsExpanded="False">
@@ -56,9 +56,9 @@
                         </Expander.Header>
                         <StackPanel>
                             <CheckBox x:Name="AverageRatingCheckBox" VerticalContentAlignment="Center" Content="Average Rating" Margin="5,3,1,3" />
-                            <CheckBox x:Name="EarliestStartDateCheckBox" VerticalContentAlignment="Center" Content="Earliest Start Date" />
-                            <CheckBox x:Name="BestCommanderCheckBox" VerticalContentAlignment="Center" Content="Best Commander" />
-                            <CheckBox x:Name="FirstLettersCheckBox" VerticalContentAlignment="Center" Content="First Letters" />
+                            <CheckBox x:Name="EarliestStartDateCheckBox" VerticalContentAlignment="Center" Content="Earliest Start Date" Margin="5,3,1,3" />
+                            <CheckBox x:Name="BestCommanderCheckBox" VerticalContentAlignment="Center" Content="Best Commander" Margin="5,3,1,3" />
+                            <CheckBox x:Name="FirstLettersCheckBox" VerticalContentAlignment="Center" Content="First Letters" Margin="5,3,1,3" />
                         </StackPanel>
                     </Expander>
                 </StackPanel>
