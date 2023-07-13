@@ -18,7 +18,7 @@ public partial class MainWindow : Window
         ClearListBox();
     }
 
-    private void FetchWithAwaitButton_Click(object sender, RoutedEventArgs e)
+    private async void FetchWithAwaitButton_Click(object sender, RoutedEventArgs e)
     {
         ClearListBox();
     }

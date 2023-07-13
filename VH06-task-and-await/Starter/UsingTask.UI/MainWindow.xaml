@@ -5,15 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UsingTask.UI"
         mc:Ignorable="d"
-        Title="Using Task - People Viewer" Height="700" Width="1000"
+        Title="Using Task - People Viewer" Height="700" Width="1300"
         WindowStartupLocation="CenterScreen">
     <Border x:Name="LayoutRoot" Padding="5"
             BorderBrush="{StaticResource ApplicationForeground}" BorderThickness="2" 
             Background="{StaticResource ApplicationBackground}">
         <Grid>
             <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300px" />
                 <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="2*" />
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
